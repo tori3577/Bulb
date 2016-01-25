@@ -1,0 +1,48 @@
+div {
+    
+    display:inline-block;
+}
+@keyframes example {
+    0%   {background-color: #c299ff;}
+    25%  {background-color: #CCB2FF;}
+    50%  {background-color: #E0D1FF;}
+    75%  {background-color: #EBE0FF;}
+    100% {background-color: #F5F0FF;}
+}
+#header {
+    height:100px;
+    width:1300px;
+    margin:10px 20px 20px 20px;
+    font-size: 60px;
+    background-color:#c299ff;
+    border-color:#3c3288;
+    position:relative;
+    z-index:1;
+    text-align:center;
+    font-size:30px;
+    border-radius:10px; 
+    border:2px solid;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+body {
+    background-color:black;
+}
+
+
+.off {  
+   background-image: url("image/turnedOff.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.on {
+   background-image: url("image/turnedOn.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+#lamp {
+     width:350px;
+     height:500px;
+}
